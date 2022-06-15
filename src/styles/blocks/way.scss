@@ -1,0 +1,23 @@
+.way {
+  &__list {
+    margin: 0 0 60px;
+    padding: 0;
+
+    display: flex;
+    gap: 12px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #969a9f;
+
+    list-style: none;
+  }
+
+  &__item {
+    color: #969a9f;
+
+    &-active {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.page {
+  &__body {
+    background-color: $bgc-black;
+
+    font-family: "TT Firs Neue", sans-serif;
+    color: $text-color;
+  }
+
+  &__main {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}

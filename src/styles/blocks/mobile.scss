@@ -1,0 +1,48 @@
+.mobile {
+  position: relative;
+
+  display: flex;
+  gap: 160px;
+
+  &__description {
+    width: 45%;
+  }
+
+  &__title {
+    padding-top: 170px;
+    margin-bottom: 16px;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
+
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  &__version {
+    display: flex;
+    gap: 54px;
+    align-items: flex-start;
+  }
+
+  &__bgi {
+    &-1 {
+      position: absolute;
+      left: 0;
+      top: -450px;
+      z-index: -1;
+    }
+
+    &-2 {
+      position: relative;
+      right: 200px;
+      top: -400px;
+      z-index: -1;
+    }
+  }
+}

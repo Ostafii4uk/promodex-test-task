@@ -1,0 +1,40 @@
+.deliverables {
+  padding: 50px 60px 60px;
+
+  background: linear-gradient(110.74deg,
+  rgba(255, 255, 255, 0.15) 0%,
+  rgba(205, 192, 255, 0.04) 100%);
+  backdrop-filter: blur(42px);
+
+  border-radius: 20px;
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  &__container {
+    display: flex;
+    gap: 80px;
+  }
+
+  &__section {
+    width: 50%;
+
+    font-size: 18px;
+  }
+
+  &__subtitle {
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+}

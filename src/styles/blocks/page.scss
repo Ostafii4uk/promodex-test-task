@@ -1,5 +1,8 @@
 .page {
   &__body {
+    margin: 0 auto;
+    max-width: 1920px;
+
     background-color: $bgc-black;
 
     font-family: "TT Firs Neue", sans-serif;

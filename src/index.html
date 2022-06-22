@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promodex</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    >
     <link rel="stylesheet" href="./styles/main.scss">
     <script
-      type="text/javascript"
-      src="scripts/main.js"
-      defer>
+      type="module"
+      src="scripts/swipers.js"
+    >
+    </script>
+    <script
+      src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
+    >
+    </script>
+    <script
+      src="https://unpkg.com/swiper/swiper-bundle.min.js"
+    >
     </script>
   </head>
   <body class="page__body">
@@ -258,7 +270,33 @@
 
       <div class="main__adaptive adaptive">
         <div class="adaptive__box">
-          <img src="./images/adaptive/Ramka.png" alt=" ">
+          <img
+            class="adaptive__border"
+            src="./images/adaptive/Ramka.png"
+            alt=" "
+          >
+          <div class="adaptive__swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./images/adaptive/1.jpg"
+                  alt="1"
+                >
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/adaptive/1.jpg"
+                  alt="2"
+                >
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/adaptive/1.jpg"
+                  alt="3"
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -417,7 +455,51 @@
           </div>
         </div>
         <div class="mobile__preview">
-          <img src="./images/main/mobile/Phone.png" alt=" ">
+          <img
+            class="mobile__img"
+            src="./images/main/mobile/Phone.png"
+            alt=" "
+          >
+
+          <div class="swiper mobile__swiper">
+            <div class="swiper-wrapper device">
+              <div class="swiper-slide device__slide">
+                <img
+                  class="device__picture"
+                  src="./images/main/mobile/1.jpg"
+                  alt="1"
+                >
+              </div>
+              <div class="swiper-slide device__slide">
+                <img
+                  class="device__picture"
+                  src="./images/main/mobile/2.jpg"
+                  alt="1"
+                >
+              </div>
+              <div class="swiper-slide device__slide">
+                <img
+                  class="device__picture"
+                  src="./images/main/mobile/1.jpg"
+                  alt="1"
+                >
+              </div>
+              <div class="swiper-slide device__slide">
+                <img
+                  class="device__picture"
+                  src="./images/main/mobile/2.jpg"
+                  alt="1"
+                >
+              </div>
+              <div class="swiper-slide device__slide">
+                <img
+                  class="device__picture"
+                  src="./images/main/mobile/1.jpg"
+                  alt="1"
+                >
+              </div>
+            </div>
+          </div>
         </div>
         <img
           class="mobile__bgi-1"

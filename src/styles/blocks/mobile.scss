@@ -52,4 +52,24 @@
       z-index: -1;
     }
   }
+
+  &__img {
+    width: 310px;
+    height: 630px;
+  }
+
+  &__preview {
+    display: flex;
+
+    position: relative;
+  }
+
+  &__swiper {
+    width: 615px;
+    height: 600px;
+
+    position: absolute;
+    top: 15px;
+    left: 17px;
+  }
 }

@@ -49,5 +49,16 @@
 
     border-bottom: 1px solid;
     border-image: linear-gradient(90deg,#215aee, #00aad6) 47% 0%;
+
+    transition: background 0.3s linear;
+
+    &:hover {
+      background: -webkit-linear-gradient($text-color, $text-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+
+      border-image: linear-gradient($text-color, $text-color) 47% 0%;
+    }
   }
 }

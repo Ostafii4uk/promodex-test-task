@@ -16,6 +16,10 @@
   &__item {
     color: #969a9f;
 
+    &:hover {
+      color: $text-color;
+    }
+
     &-active {
       color: white;
     }

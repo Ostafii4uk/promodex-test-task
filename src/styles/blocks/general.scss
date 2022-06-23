@@ -52,6 +52,24 @@
 
     border: 2px solid #505050;
     border-radius: 30px;
+
+    transition: background-color 0.3s linear,
+      border-color 0.3s linear,
+      color 0.3s linear;
+
+    &-arrow {
+      transition: fill 0.3s linear;
+    }
+
+    &:hover {
+      background-color: $text-color;
+      border-color: $hover-color;
+      color: $hover-color;
+    }
+
+    &:hover .general__button-arrow {
+      fill: $hover-color;
+    }
   }
 
   &__image {

@@ -17,11 +17,27 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 34px;
+
+    transition: color 0.3s linear;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 
   &__social {
     display: flex;
     gap: 16px;
+
+    &-item {
+      transition: fill 0.3s linear;
+    }
+
+    &-link {
+      &:hover .footer__social-item {
+        fill: $hover-color;
+      }
+    }
   }
 
   &__title {
@@ -46,6 +62,12 @@
 
   &__link {
     color: #cacaca;
+
+    transition: color 0.3s linear;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 
   &__since {
